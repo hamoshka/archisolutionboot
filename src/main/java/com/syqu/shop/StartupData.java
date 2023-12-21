@@ -47,7 +47,7 @@ public class StartupData implements CommandLineRunner {
 
         userService.save(user);
     }
-
+ 
     private void adminAccount(){
         User admin = new User();
 
